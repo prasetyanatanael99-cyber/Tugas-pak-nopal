@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tampilan selamat datang</title>
+    <style>
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #030164;
+    color: aliceblue;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    text-align: center;
+    flex-direction: row;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    background-color: bisque;
+}
+button{
+    display: flex;
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 500px;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding: 20px;
+}
+.card {
+    flex: 1;
+    min-width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.gambar {
+    height: 70px;
+    margin-bottom: 14px;
+}
+.card h3 {
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    margin: 0 0 6px 0;
+}
+.card p {
+    font-size: 0.7rem;
+    color: #3b3b6b;
+}
+.c1 { background-color: #ec6d2f; }
+.c2 { background-color: #1b2040; }
+.c3 { background-color: #722f47; }
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #030164;
+    color: rgb(253, 253, 253);
+    box-shadow: #1b2040;
+    padding: 15px;
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>Naelkun</h1>
+        <ul>
+            <li>Beranda </li>
+            <li>Produk</li>
+            <li>Kontak</li>
+        </ul>
+        
+    </nav>
+    <main>
+        <section class="hero">
+            <h1>Selamat datang di situs kami</h1>
+            <p>Bangun website impian mu dengan HTML dan CSS</p>
+            <button type="button">Mulai</button>
+        </section>
+        <div class="content">
+    <div class="card">
+        <div class="gambar c1"></div>
+        <h3>APALAH</h3>
+        <p>WEB GACOR</p>
+    </div>
+    <div class="card">
+        <div class="gambar c2"></div>
+        <h3>APALAH</h3>
+        <p>WEB GACOR</p>
+    </div>
+    <div class="card">
+        <div class="gambar c3"></div>
+        <h3>APALAH</h3>
+        <p>WEB GACOR</p>
+    </div>
+</div>
+        <footer>
+            <p>@2026 situs kami</p>
+            <ul>
+                <li>Instagram</li>
+                <li>Email</li>
+            </ul>
+        </footer>
+    </main>
+    
+    
+</body>
+</html>
